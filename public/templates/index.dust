@@ -1,7 +1,205 @@
-{>"layouts/master"/}
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-{<body}
-	<h1>My name is {name}</h1>
-	<p>This is my first project</p>
-	
-{/body}
+    <meta charset="utf-8" />
+    <title>{+title /}</title>
+    <div id="wrapper">
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" href="../css/app.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <header class="row">
+          <div class="col-md-5"> 
+          <img src="http://www.ansonika.com/edu/img/logo.png"> 
+          </img> 
+        </div> 
+       <div class="col-md-4 r1"> 
+         <ul class="inlineUL"> 
+           <li><a href="index.html" title="Home">Home</a> |</li> 
+           <li><a href="news-events.html" title="News and Events">News &amp; Events</a> | </li> 
+           <li><a href="contact.html" title="Contact">Contact</a></li> 
+        </ul> 
+     </div> 
+    <div class="col-md-3"> 
+      <div id="phone" class=hidden-phone>  
+       <strong class="phone">+44 (0) 123 456 789</strong> </br> 
+       
+
+      <span class= "admin">Admissons department</span>
+       <img class= "ph" src="http://www.ansonika.com/edu/img/icon-phone.png"> 
+          
+          
+             
+      </div>         
+  </header>  
+
+ 
+  <div class="row headerNav">
+    <!-- Collect the nav SCHOOLS & ACADEMICS, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">COURSES</a></li>
+        <li class="active"><a href="#">SCHOOLS &ACAMEMICS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="#">BLOG</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SIMPLE DROP <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">All courses</a></li>
+            <li><a href="#">Course detail</a></li>
+            
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACTS <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>      
+    
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://www.ansonika.com/edu/images/slides/slide-intro.jpg" alt="intro">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://www.ansonika.com/edu/images/slides/slide-1.jpg" alt="...">
+      <div class="carousel-caption">
+        <img src="http://www.ansonika.com/edu/images/slides/slide-1.jpg" class="image1" alt="">
+            
+        <img src="http://www.ansonika.com/edu/images/slides/diagram.png" alt="Image 9" >
+
+        <img class="fei animate" src="http://www.ansonika.com/edu/images/slides/icon-slide-1.png" alt="" >
+
+        <img src="http://www.ansonika.com/edu/images/slides/icon-slide-2.png" alt="" >
+>
+        <img src="http://www.ansonika.com/edu/images/slides/icon-slide-3.png" alt="" >
+
+        <img src="http://www.ansonika.com/edu/images/slides/icon-slide-4.png" alt="" >
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://www.ansonika.com/edu/images/slides/slide-2.jpg" alt="...">
+      <div class="carousel-caption">
+        
+    </div>
+    </div>
+    
+<div class="item">
+      <img src="http://www.ansonika.com/edu/images/slides/slide-3.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+    </div>
+
+
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<div class="container-fluid">
+    <header class="row h2">
+      
+      <div class="col-md-3 r2"> 
+        <h3> Courses </h3>
+        <p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
+          <img src="http://www.ansonika.com/edu/img/icon-home-course.png"> 
+          </img> 
+      </div> 
+      <div class="col-md-3 r2"> 
+         <h3> Courses </h3>
+        <p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
+          <img src="http://www.ansonika.com/edu/img/icon-home-course.png"> 
+          </img>
+     </div> 
+      <div class="col-md-3 r2"> 
+        <h3> Courses </h3>
+        <p>Lorem ipsum dolor sit amet, dicta aliquip ad vix, ne sit everti corpora. Qui cu eros feugiat, elitr iudico ad pri.</p>
+       <img class= "ph" src="http://www.ansonika.com/edu/img/icon-phone.png"> 
+          
+          
+             
+      </div>         
+
+
+<div class="container-fluid">
+    <div class="row h3">
+      
+      <div class="col-md-4 r3"> 
+        
+        <h4> Expert Teachers </h4>
+        <p> An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+
+        <div class="row h4">
+      
+          <h5> Video Courses</h5>
+          <p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei.</p>
+        </div>
+      </div>
+      <div class="col-md-8 r4">
+        <h4> Upcoming courses</h4>
+        <p> An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an. Priaeque iuvaret nominati et, ad mea clita numquam. Maluisset dissentiunt et per, dico liber erroribus vis te. Dolor consul graecis nec ut, scripta eruditi scriptorem et nam.</p>
+       
+
+      </div>
+    </div>
+</div>
+
+
+
+
+<script data-main="/js/app" src="/components/requirejs/require.js"></script>
+</body>
+</html>
